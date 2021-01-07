@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#80000000</color>
+    <color name="colorPrimaryDark">#80000000</color>
+    <color name="colorAccent">#448AFF</color>
+    <color name="colorNavIcon">#dae9f6</color>
+    <color name="maincolor">#0D46A0</color>
+    <color name="lightmaincolor">#5684EC</color>
+    <color name="color_trail_text">#102027</color>
+    <color name="colorBackground">#f9f9fa</color>
+    <color name="colorTextSubtitle">#4e4e4e</color>
+    <color name="colorTextTitle">#262626</color>
+    <color name="color1">#424549</color>
+    <color name="color2">#7e455e</color>
+    <color name="color3">#796e25</color>
+    <color name="color4">#59717c</color>
+</resources>

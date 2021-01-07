@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_outline_grey600_24dp"/>
+
+    <item
+        android:id="@+id/yoga"
+        android:title="Yoga"
+        android:icon="@drawable/ic_guru"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_about"/>
+
+
+
+</menu>

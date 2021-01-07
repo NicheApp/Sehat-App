@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile"
+        android:layout_width="60dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_man"
+        android:layout_height="60dp"
+       android:layout_marginBottom="20dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+    <TextView
+        android:id="@+id/crpuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-20dp"
+        android:text="Nishkarsh"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/oparea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/crpuser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-30dp"
+        android:text="Heart:70  BP:90/110"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_ok"
+        android:layout_toStartOf="@id/oparea"
+        android:layout_alignBottom="@id/crpuser"
+        android:layout_marginBottom="-30dp"
+
+        />
+
+
+
+</RelativeLayout>

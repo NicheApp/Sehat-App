@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/firstOne"
+            android:orderInCategory="1"
+            android:title="Tests"
+            app:showAsAction="ifRoom">
+            <menu>
+                <item
+                    android:id="@+id/heartrate"
+                    android:title="Heart Rate"
+                    android:icon="@drawable/ic_heart_beat"/>
+                <item
+                    android:id="@+id/bp"
+                    android:title="Blood Pressure"
+                    android:icon="@drawable/ic_blood_pressure_gauge"/>
+                <item
+                    android:id="@+id/rp"
+                    android:title="Respiration rate"
+                    android:icon="@drawable/ic_respirator"/>
+                <item
+                    android:id="@+id/ol"
+                    android:title="oxcygen Level"
+                    android:icon="@drawable/ic_lack_of_air"
+                    />
+            </menu>
+        </item>
+
+        <item
+            android:orderInCategory="2"
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout_grey600_24dp"
+            android:title="LOG OUT / लॉग आउट"/>
+
+
+    </group>
+</menu>
